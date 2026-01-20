@@ -1,5 +1,7 @@
 # project setup & operations guide
 
+data source: https://catalog.data.gov/dataset/warehouse-and-retail-sales 
+
 this guide walks you through installing the required tools and running this project locally. it is written for beginners and assumes little to no prior setup experience.
 
 the project uses the following tools:
