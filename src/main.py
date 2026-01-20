@@ -9,11 +9,11 @@ from pathlib import Path
 cvs_path = Path("input_data") / "Warehouse_and_Retail_Sales.csv"
 
 # database parameters, edit for personal database 
-database_username  = ''
-database_password = ''
+database_username  = 'postgres'
+database_password = '1234'
 database_host = 'localhost'
 database_port = 5432
-database_name  = ''
+database_name  = 'BCA'
 
 table_name = 'warehouse_and_retail_sales'
 

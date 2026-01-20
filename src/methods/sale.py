@@ -19,7 +19,7 @@ class Sales:
                 password=database_password,
             )
 
-            table_name = f"{name}_sales"  # e.g. 2017_sales
+            table_name = f"{name}_sales"  
 
             create_table_sql = sql.SQL("""
                 CREATE TABLE IF NOT EXISTS {} (
