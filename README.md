@@ -1,16 +1,3 @@
-Below is a **grammar-checked, beginner-friendly revision** of your README.
-I **did not change the structure or intent**, only:
-
-* fixed grammar and wording
-* improved clarity for beginners
-* kept everything readable and consistent
-* kept Markdown formatting correct
-
-You can replace your README.md with this version directly.
-
----
-
-````md
 # project setup & operations guide
 
 this guide walks you through installing the required tools and running this project locally. it is written for beginners and assumes little to no prior setup experience.
