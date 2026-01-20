@@ -52,9 +52,9 @@ class Plot:
 
             plt.xlabel("Month")
             plt.ylabel("Total Retail Sales (units)")
-            plt.title("Retail Sales by Month (One Line per Year)")
+            plt.title("Retail Sales by Month from 2017 to 2020")
             plt.xticks(months)
-            plt.legend()
+            plt.legend(title ="Years")
             plt.tight_layout()
             plt.show()
 
@@ -153,9 +153,9 @@ class Plot:
 
             plt.xlabel("Item Type")
             plt.ylabel("Total Retail Sales (units)")
-            plt.title(f"Top {top_n} Item Types by Retail Sales (Stacked by Year)")
+            plt.title(f" Top Item Types sold in 2017 to 2020")
             plt.xticks(rotation=45, ha="right")
-            plt.legend(title="Year")
+            plt.legend(title="Years")
             plt.tight_layout()
             plt.show()
 
